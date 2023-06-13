@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:aesha_bookdiscovery/widget/menu.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
+
+// Future<void> main() async {
+//   await Supabase.initialize(url: 'SUPABASE_URL', anonKey: 'SUPABASE_ANON_KEY');
+//   runApp(const MyApp());
 
 void main() {
   runApp(const MyApp());
